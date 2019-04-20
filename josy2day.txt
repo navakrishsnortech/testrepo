@@ -1,0 +1,178 @@
+>>https://accounts.quickclickhosting.com/gy7665567u3/supporttickets.php?action=view&id=8575
+
+Hello Hassan,
+
+Thank you for your update.
+
+Now am putting this ticket into pending status, feel free to let us know if you need any assistance.
+
+
+
+
+>>https://accounts.quickclickhosting.com/gy7665567u3/supporttickets.php?action=view&id=8593
+
+Hello Maxim,
+
+Sorry for the delay in our response.
+
+Upon checking we could see that A cancellation request exists for this item and so it will not be invoiced when due
+Reason: ?? ???? ???????? ?????? ?? ssh, ?????? ?????, ?? ??? ????? ?? ???????.
+
+Please make sure about it and do let us know.
+
+
+>>>https://accounts.quickclickhosting.com/gy7665567u3/supporttickets.php?action=view&id=8592
+
+Hello sathish,
+
+Sorry for the delay in our response.
+
+Upon checking we could see that the domain "gracecomputers.in" already have SSL certificate and it is valid for 174 days.
+
+You can verify the same by using the following URL, Please let us know whether you need to istall let'sencrpt for the domain ?
+=============================
+https://www.sslshopper.com/ssl-checker.html#hostname=gracecomputers.in
+
+
+
+
+>>https://accounts.quickclickhosting.com/gy7665567u3/supporttickets.php?action=view&id=8590
+
+Hello rodrigo,
+
+Sorry for the delay in our response.
+
+Upon checking I could see that domain "advogadoscausatrabalhista.com.br" is correctly pointing to our server IP 	"148.163.100.142".
+
+Please verify the same using the following URL and let us know if you need further assistance.
+
+https://mxtoolbox.com/SuperTool.aspx?action=a%3aadvogadoscausatrabalhista.com.br&run=toolpage
+
+
+>>https://support.getmyadmin.com/admin/supporttickets.php?action=view&id=13690
+
+Hello Mark,
+
+Thank you for your update.
+
+Could you please provide the root login credentials of the server IP 104.194.14.48 so that we can check the changes have been worked properly.
+
+
+
+>>https://runcloud.zendesk.com/agent/tickets/10736
+
+Hi,
+
+
+
+Sorry for the previous response, Please ignore it.
+
+
+To diagnose the reported issue, I would like to access your server as well as your dashboard, if you could grant me the permission, I can proceed further. Also please let us know the steps to recreate the issue on our end.
+
+
+>>https://runcloud.zendesk.com/agent/tickets/10734
+Hi Corwin,
+
+To diagnose the reported issue, I would like to access your server as well as your dashboard, if you could grant me the permission, I can proceed further.
+
+
+>>https://runcloud.zendesk.com/agent/tickets/10733
+
+
+Hello Steve,
+
+
+
+Please go through the following article to configure your server for sending mail.
+
+
+
+https://blog.runcloud.io/2017/03/08/how-to-send-email-from-php-guided-walkthrough.html
+
+
+
+Please do know this is not an ultimate feature available in RunCloud and as of this we are suggesting you to setup Mailgun and configure with your websites. Mailgun is a free utility which will help you to send 10000 emails per month without any cost.
+
+
+
+https://blog.runcloud.io/2017/07/23/using-mailgun-to-send-transactional-email-from-wordpress.html
+
+
+>>>>https://runcloud.zendesk.com/agent/tickets/10668
+
+Hi Frank,
+
+
+
+Upon further investigation regarding this issue, I could also see that you are using OpenVZ virtualization and it won't be supported by RunCloud right now.
+
+
+
+I also suggest you that, Could you please purchase a KVM server, then install RunCloud, then migrate everything over to the new server to avoid such issues permanently. 
+
+>>https://runcloud.zendesk.com/agent/tickets/10737
+
+Hi Dyim,
+
+Sorry for the previous response, Please ignore it.
+
+
+
+To diagnose the reported issue, I would like to access your server as well as your dashboard, if you could grant me the permission, I can proceed further. Also please let us know the problematic server IP us.
+
+
+
+>>>https://runcloud.zendesk.com/agent/tickets/10689
+
+Hi Alex,
+
+
+Happy to hear everything is sorted out, Please do not hesitate to let us know if you have any additional questions or concerns that we may be able to assist with in the future, as we are always happy to help where we can. By the way, I am closing this ticket and please feel free to open a new ticket for any further assistance.
+
+
+
+
+>>>https://runcloud.zendesk.com/agent/tickets/10741
+
+Hello Richard,
+
+
+
+Thank you for contacting RunCloud support service, I am Josy and I will be assisting you with your concern regarding this, As part of our investigations, we will be accessing your server, can we have your permission in this regard? To proceed further please provide the server login credentials with us. once you have acknowledged we will proceed with the investigations.
+
+
+>>https://runcloud.zendesk.com/agent/tickets/10740
+Hello Rehana,
+
+
+
+Thank you for contacting RunCloud support service, I am Josy and I will be assisting you with your concern regarding this, The HTTP2 option is enabled by default in RunCloud. When you install SSL to your domain, you can see the HTTP/2 option, which is by enabled by default.
+
+
+>>>https://runcloud.zendesk.com/agent/tickets/10741
+Hello Richard,
+
+
+
+Thank you for contacting RunCloud support service, I am Josy and I will be assisting you with your concern regarding this, As part of our investigations, we will be accessing your server, can we have your permission in this regard? To proceed further please provide the server login credentials with us. once you have acknowledged we will proceed with the investigations.
+
+>>https://runcloud.zendesk.com/agent/tickets/10741
+
+Hello Richard,
+
+
+Please note that we are unable to access the server using the login credentials that you have provided in your last response.
+
+Kindly make sure the credentials are valid and also check whether any custom firewall rule is enabled in your server.
+
+>>https://runcloud.zendesk.com/agent/tickets/10736
+Hi,
+
+You would have noticed that there is a separate area for defining open_basedir in your webapp settings, you would have to clear the term open_basedir from that area otherwise RunCloud will override the configurations.
+
+
+Open_basedir is a security function in PHP that defines the locations or paths from which PHP is allowed to access files, so if you have disabled this feature, the user/attacker may be able to gain access outside the public path directory.
+
+
+You can disable this temporarily by copy paste the open base directory to a secure location and once you have done you can enable it again.
