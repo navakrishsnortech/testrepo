@@ -1,0 +1,89 @@
+https://runcloud.zendesk.com/agent/tickets/11382--solved
+https://runcloud.zendesk.com/agent/tickets/11300
+https://runcloud.zendesk.com/agent/tickets/11385
+https://runcloud.zendesk.com/agent/tickets/11337
+https://runcloud.zendesk.com/agent/tickets/11368
+https://runcloud.zendesk.com/agent/tickets/11387 --solved
+https://runcloud.zendesk.com/agent/tickets/11386--solved
+https://runcloud.zendesk.com/agent/tickets/11353
+https://runcloud.zendesk.com/agent/tickets/10903
+https://runcloud.zendesk.com/agent/tickets/11388--solved
+https://runcloud.zendesk.com/agent/tickets/11389
+
+
+
+
+
+19 apr
+
+
+
+https://runcloud.zendesk.com/agent/tickets/11399--solved
+https://runcloud.zendesk.com/agent/tickets/11400
+https://runcloud.zendesk.com/agent/tickets/11401
+https://runcloud.zendesk.com/agent/tickets/11403
+https://runcloud.zendesk.com/agent/tickets/11402
+https://runcloud.zendesk.com/agent/tickets/11404
+https://runcloud.zendesk.com/agent/tickets/11357
+https://runcloud.zendesk.com/agent/tickets/11396
+https://runcloud.zendesk.com/agent/tickets/11406
+https://runcloud.zendesk.com/agent/tickets/11407
+https://runcloud.zendesk.com/agent/tickets/11398--solved
+https://runcloud.zendesk.com/agent/tickets/11409
+https://runcloud.zendesk.com/agent/tickets/11408
+https://runcloud.zendesk.com/agent/tickets/11412
+https://runcloud.zendesk.com/agent/tickets/11411
+https://runcloud.zendesk.com/agent/tickets/11413
+
+
+Navaneeth Krishnan:
+Scrum , 19th April
+
+Total number of tickets : 40
+Solved ticket count :9
+Open tickets : 6
+Escalated ticket : 1
+
+Common issues:
+Git issues, RuNCloud enquiries, Team management enquiry, backup issues,server connection fails
+By Navaneeth
+
+
+
+
+Hi Thank you for the response. We have analyzed your requirement in detail and arrived at the solution. 
+To avoid confusion, we can start from the beginning, 
+Firstly you need to follow these steps starting creation of extra configuration file in the path
+/etc/nginx-rx/extra.d/<webappname>.location.main-before.*conf
+
+Regarding the extra.conf , please follow the Steps:
+
+Step 1: create an extra configuration file  etc/nginx-rc/extra.d/<webapp>.location.main-before.*.conf
+Step 2: now provide the whole list of other domains that are added to this,
+			if($host= otherdomains.com)
+				{
+					return 301 http://www.mydomain.com$request_uri;
+				}
+		the successive lines will be like 
+			if($host  = someotherdomain.com)
+				{
+					return 301 http://www.mydomain.com$request_uri;
+				}
+
+Step 3: save the configuration file
+Step 4: restart the nginx by
+
+        service nginx-rc restart
+
+        Checking syntax by
+        nginx-rc -t
+
+
+
+You need to insert the 31 rewrite rules inside an extra nginx configuration file like /etc/nginx-rc/extra.d/<webapp>.location.main-before.*.conf
+
+Change web app with your actual web app name and * with anything you like.
+
+eg: vi /etc/nginx-rc/extra.d/runcloud-blog.location.main-before.dominredirecct.conf
+
+return 301 $scheme://www.new-name.com$request_uri;
